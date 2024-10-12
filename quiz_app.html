@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz_app.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Quiz</h1>
+        
+        <!-- Question 1 -->
+        <div class="question-container" id="q1">
+            <p>1. Which one of the following also known as Conditional Expression?</p>
+            <label><input  type="radio" name="q1" value="0"> Alternative to if-else</label>
+            <label><input type="radio" name="q1" value="1"> Switch statement</label>
+            <label><input type="radio" name="q1" value="2"> If-then-else statement</label>
+            <label><input type="radio" name="q1" value="3"> immediate if</label>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-container" id="q2" style="display: none;">
+            <p>2. In JavaScript, what is a block of statement?</p>
+            <label><input type="radio" name="q2" value="0"> Conditional block</label>
+            <label><input type="radio" name="q2" value="1"> block that combines a number of statements into a single compound statement</label>
+            <label><input type="radio" name="q2" value="2"> both conditional block and a single statement</label>
+            <label><input type="radio" name="q2" value="3"> block that contains a single statement</label>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-container" id="q3" style="display: none;">
+            <p>3. The "function" and " var" are known as?</p>
+            <label><input type="radio" name="q3" value="0"> Keywords</label>
+            <label><input type="radio" name="q3" value="1"> Data types</label>
+            <label><input type="radio" name="q3" value="2"> Declaration statements</label>
+            <label><input type="radio" name="q3" value="3"> Prototypes</label>
+        </div>
+        
+        <!-- Question 4 -->
+        <div class="question-container" id="q4" style="display: none;">
+            <p>4. What does HTML stand for?</p>
+            <label><input type="radio" name="q4" value="0"> Hyper Trainer Marking Language</label>
+            <label><input type="radio" name="q4" value="1"> Hyper Text Marketing Language</label>
+            <label><input type="radio" name="q4" value="2"> Hyper Text Markup Language</label>
+            <label><input type="radio" name="q4" value="3"> Hyper Tool Multi Language</label>
+        </div>
+        
+        
+        <div class="question-container" id="q5" style="display: none;">
+            <p>5. Which is not a JavaScript framework?</p>
+            <label><input type="radio" name="q5" value="0"> Python Script</label>
+            <label><input type="radio" name="q5" value="1"> React</label>
+            <label><input type="radio" name="q5" value="2"> Vue</label>
+            <label><input type="radio" name="q5" value="3"> Angular</label>
+        </div>
+
+        
+        <div class="buttons">
+            <button id="prev-btn" style="display: none;">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+        
+        
+        <div id="result" style="display: none;">
+            <h2>Result</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+<div id="progress_bar"></div>
+
+
+
+    <script src="quiz_app.js"></script>
+</body>
+</html>
