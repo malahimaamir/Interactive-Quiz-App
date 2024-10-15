@@ -8,18 +8,16 @@
 </head>
 <body>
     <div class="main">
-        <h1>Quiz</h1>
+        <h1>Quiz</h1>     
         
-        <!-- Question 1 -->
         <div class="question-container" id="q1">
             <p>1. Which one of the following also known as Conditional Expression?</p>
-            <label><input  type="radio" name="q1" value="0"> Alternative to if-else</label>
+            <label><input  type="radio" name="q1" value="0" > Alternative to if-else</label>
             <label><input type="radio" name="q1" value="1"> Switch statement</label>
             <label><input type="radio" name="q1" value="2"> If-then-else statement</label>
             <label><input type="radio" name="q1" value="3"> immediate if</label>
-        </div>
-        
-        <!-- Question 2 -->
+        </div> 
+       
         <div class="question-container" id="q2" style="display: none;">
             <p>2. In JavaScript, what is a block of statement?</p>
             <label><input type="radio" name="q2" value="0"> Conditional block</label>
@@ -27,8 +25,6 @@
             <label><input type="radio" name="q2" value="2"> both conditional block and a single statement</label>
             <label><input type="radio" name="q2" value="3"> block that contains a single statement</label>
         </div>
-
-        <!-- Question 3 -->
         <div class="question-container" id="q3" style="display: none;">
             <p>3. The "function" and " var" are known as?</p>
             <label><input type="radio" name="q3" value="0"> Keywords</label>
@@ -55,11 +51,15 @@
             <label><input type="radio" name="q5" value="3"> Angular</label>
         </div>
 
-        
+       
         <div class="buttons">
             <button id="prev-btn" style="display: none;">Previous</button>
             <button id="next-btn">Next</button>
         </div>
+
+
+        <div id="" ></div>
+        
         
         
         <div id="result" style="display: none;">
@@ -69,10 +69,21 @@
         </div>
     </div>
 
-<div id="progress_bar"></div>
-<div></div>
+
+
 
     <script defer src="/_vercel/insights/script.js"></script>
     <script src="index.js"></script>
+    
+
+
+    <div id="progress_1" style="display: none;" ></div>
+    <div id="progress_2" style="display: none;" ></div>
+    <div id="progress_3" style="display: none;" ></div>
+    <div id="progress_4" style="display: none;" ></div>
+    <div id="progress_5" style="display: none;" ></div>
+
+
+
 </body>
 </html>
